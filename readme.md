@@ -1,5 +1,7 @@
 Hi! 
 
+I made this in Pycharm. To use, just download GUG Scraper.py and paste it into whatever you use and hit run.
+
 This is a very poorly written script but it's pretty much the first thing I made
 using bits and pieces I found elsewhere. I hope it's useful to someone and could hopefully be used as the basis for the other league tables (except of course the daily mail because nobody wants to read that)
 Please forgive my use of emojis I just think it's funny.
