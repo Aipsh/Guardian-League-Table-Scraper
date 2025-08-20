@@ -12,6 +12,7 @@ if they're causing issues, just search for these and delete them:
 Don't worry - it won't save any of that stuff in the CSVs. This is safe for work (if they even allow you to run scripts at work)
 
 Right now what it will do when run is: 
+---------------------------------------
 1) ask you for a place to create two folders
 2) ask you for the URL of the entire league table you want to scrape
 3) ask you for the university name you're interested in.
@@ -23,9 +24,12 @@ The folders will be saved as C:/Yourstuff/gug_2020.at 2025-Aug-20_12.00
 
 It takes the gug_xxxx from the first year as it appears in the guardian url.
 I've tested it with all the league table years and it works for all of them.
----------------------------------------
-Very brief explanation of how it works:
 
+
+
+
+Very brief explanation of how it works:
+---------------------------------------
 Essentially it uses requests and beautifulsoup to take the overview.json from the main table page
 (e.g. https://interactive.guim.co.uk/atoms/labs/2021/08/university-guide/v/1655133428819/assets/data/overview.json)
 You can find it by going to the url:
